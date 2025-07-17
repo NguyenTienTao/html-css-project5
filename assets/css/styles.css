@@ -746,7 +746,6 @@ a {
 
 .client__speech {
     position: relative;
-    z-index: -2;
     padding: 42px 28px;
     background: #fff;
     border: 1px solid #dfe2e8;
@@ -760,7 +759,6 @@ a {
     bottom: -40px;
     left: 50%;
     translate: -50%;
-    z-index: -1;
     transform: rotate(45deg) skew(7deg, 7deg);
     width: 80px;
     height: 80px;
@@ -777,6 +775,8 @@ a {
 }
 
 .client__comment {
+    position: relative;
+    z-index: 1;
     width: 514px;
     color: var(--primary-color-desc);
     font-size: 2.2rem;
